@@ -6,7 +6,9 @@ been stored over 30 years in various places.
 
 # Space Invader (1984)
 
-This was my very first game. It is written entirely in BASIC.
+This was my very first game with simple PETSCII graphics. It is written
+entirely in BASIC. I was just trying to learn how to move things on the
+screen and detect if them collide. It has sound effects too!
 
 ![Image](space-invader/screenshot1.png)
 
@@ -34,9 +36,11 @@ bother to change the name. At that time I did not have a character editor
 so the graphics were made using paper, pen and calculator.
 It was dedious work.
 
-The game is written partly in basic and partly in machine language.
+![Image](maze/screenshot0.png)
+
+The game is written partly in BASIC and partly in machine language.
 Originally it was a tape game and the high score table was saved on tape.
-After 33 years I was still able to relearn basic and convert
+After 33 years I was still able to relearn CBM BASIC and convert
 loading and saving to disk instead. Enjoy!
 
 ![Image](maze/screenshot1.png)
@@ -53,28 +57,44 @@ SPACE		Down
 
 ## Download
 
-Download d64 disk image [maze(+3k).zip](maze/maze(+3k).zip) for VIC-20 with 3K memory expansion.
+Download d64 disk image [maze(+3k).zip](maze/maze(+3k).zip) for
+VIC-20 with 3K memory expansion.
 
 # Bomb Jack (1985)
 
 This game has nothing to do with the game developed by Tehkan.
 I just didn't know that game with the same name already existed.
 
+The game has so many loaders that I gave up the idea of converting it to disk
+image and it is now only provided as TAP images. Loading takes ages, sorry!
+There is even bitmap loading screen made by a friend of mine with
+his self made drawing tool.
 
 ![Image](bombjack/screenshot1.png)
+
+The game is written partly in BASIC and partly in machine language. Some of
+the ML routines are excuted as an IRQ routine.
 
 ![Image](bombjack/screenshot2.png)
 
 ## Instructions
 
-Load the game from `Bomb_Jack_Game.tap.` After loading the game displays a screen where it says:
+Load the game from `Bomb_Jack_Game.tap.` After loading the game displays
+a screen where it says:
 
 `Please reset tape counter to '000' and press FIRE`
 
-Attach tap file `Bomb_Jack_Maps.tap` and press FIRE. Shortly after set tape to play mode.
-The first game map should load now.
+Attach tap file `Bomb_Jack_Maps.tap` and press FIRE. Shortly after set tape
+to play mode. The first game map should load now.
+
+The game has 8 different maps. If you manage to complete all maps rewind
+the tape and start from the map 1 again. The game was never really finshed so
+it doesn't know how many maps the tape contains and it just keeps loading
+the next map endlessly.
+
+Press `SPACE` to pause/resume game playing.
 
 ## Download
 
-Download tap tape images [bombjack(+3k).zip](bombjack/bombjack(+3k).zip) for VIC-20 with 3K memory expansion and joystick.
-
+Download tap tape images [bombjack(+3k).zip](bombjack/bombjack(+3k).zip) for
+VIC-20 with 3K memory expansion and joystick.
