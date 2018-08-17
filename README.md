@@ -75,6 +75,9 @@ his self made drawing tool.
 The game is written partly in BASIC and partly in machine language. Some of
 the ML routines are excuted as an IRQ routine.
 
+It seems that I ran out of ideas for the main character since the same
+guy is wobbling again in this game.
+
 ![Image](bombjack/screenshot2.png)
 
 ## Instructions
