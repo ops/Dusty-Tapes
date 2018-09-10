@@ -4,6 +4,9 @@ Here are the games I wrote for Commodore VIC-20 in 1984-1985. It is
 amazing that I was able to restore the games from the tapes that have
 been stored over 30 years in various places.
 
+If you want to discuss these games please visit
+[Denial Forum](http://sleepingelephant.com/ipw-web/bulletin/bb/viewtopic.php?t=9084).
+
 # Space Invader (1984)
 
 This was my very first game with simple PETSCII graphics. It is written
