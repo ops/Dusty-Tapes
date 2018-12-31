@@ -72,11 +72,13 @@ I just didn't know that game with the same name already existed.
 
 ![Image](images/map_draft2.png)
 
-Here is map design draft with extended screen resolution.
+Here is map design draft with extended screen resolution which
+I had just discovered.
 
 ![Image](images/map_draft3.png)
 
-The same map from the game
+The game works only on PAL machines due to extended screen
+resolution. Here is the same map from the actual game.
 
 ![Image](bombjack/screenshot3.png)
 
@@ -84,6 +86,9 @@ The game has so many loaders that I gave up the idea of converting it to disk
 image and it is now only provided as TAP images. Loading takes ages, sorry!
 There is even bitmap loading screen made by a friend of mine with
 his self made drawing tool.
+
+**Update 2018-12-31:** The game is now
+[available](https://ops.github.io/BJR/) in d64 format!
 
 ![Image](bombjack/screenshot1.png)
 
@@ -128,6 +133,7 @@ pos_up:
         sbc     #$00
         sta     $FE
         rts
+
 pos_right:
         clc
         lda     $FB
@@ -137,6 +143,7 @@ pos_right:
         adc     #$00
         sta     $FE
         rts
+
 pos_left:
         sec
         lda     $FB
@@ -146,6 +153,7 @@ pos_left:
         sbc     #$00
         sta     $FE
         rts
+
 pos_down:
         clc
         lda     $FB
