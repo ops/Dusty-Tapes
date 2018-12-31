@@ -68,6 +68,12 @@ VIC-20 with 3K memory expansion.
 This game has nothing to do with the game developed by Tehkan.
 I just didn't know that game with the same name already existed.
 
+![Image](images/map_draft1.png)
+
+![Image](images/map_draft2.png)
+
+![Image](images/map_draft3.png)
+
 The game has so many loaders that I gave up the idea of converting it to disk
 image and it is now only provided as TAP images. Loading takes ages, sorry!
 There is even bitmap loading screen made by a friend of mine with
@@ -77,6 +83,11 @@ his self made drawing tool.
 
 The game is written partly in BASIC and partly in machine language. Some of
 the ML routines are excuted as an IRQ routine.
+
+I didn't have ML monitor at that time so coding was first done with
+paper & pen and then POKEd to the memory. Here's some of my "coding"
+
+![Image](images/joystick.png)
 
 It seems that I ran out of ideas for the main character since the same
 guy is wobbling again in this game.
