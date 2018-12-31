@@ -98,7 +98,7 @@ the tape and start from the map 1 again. The game was never really finshed so
 it doesn't know how many maps the tape contains and it just keeps loading
 the next map endlessly.
 
-Press `SPACE` to pause/resume game playing.
+Press `FIRE` to pause/resume game playing.
 
 ## Download
 
