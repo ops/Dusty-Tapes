@@ -68,17 +68,21 @@ VIC-20 with 3K memory expansion.
 This game has nothing to do with the game developed by Tehkan.
 I just didn't know that game with the same name already existed.
 
+While browsing through my old archives I found a few sketches.
+
 ![Image](images/map_draft1.png)
 
 ![Image](images/map_draft2.png)
 
-Here is map design draft with extended screen resolution which
-I had just discovered.
+Here is map design draft with final screen resolution which
+I had just discovered. The game works only on PAL machines
+due to extended screen resolution. The status line includes
+word 'keys' so the game was not about bombs in the
+first place.
 
 ![Image](images/map_draft3.png)
 
-The game works only on PAL machines due to extended screen
-resolution. Here is the same map from the actual game.
+Here is the map from the actual game.
 
 ![Image](bombjack/screenshot3.png)
 
@@ -100,7 +104,7 @@ paper & pen and then POKEd to the memory. Here's some of my "coding"
 
 ![Image](images/joystick.png)
 
-Updated code
+And here is the updated (2018) for ca65 assembler.
 
 ```
 read_joy:
@@ -165,12 +169,12 @@ pos_down:
         rts
 ```
 
+![Image](bombjack/screenshot2.png)
+
 It seems that I ran out of ideas for the main character since the same
 guy is wobbling again in this game.
 
-![Image](bombjack/screenshot2.png)
-
-## Instructions
+## Instructions for tape version
 
 Load the game from `Bomb_Jack_Game.tap.` After loading the game displays
 a screen where it says:
@@ -191,3 +195,5 @@ Press `FIRE` to pause/resume game playing.
 
 Download tap tape images [bombjack(+3k).zip](bombjack/bombjack(+3k).zip) for
 VIC-20 with 3K memory expansion and joystick.
+
+Updated version in d64 is available [here](https://ops.github.io/BJR/).
