@@ -95,6 +95,68 @@ paper & pen and then POKEd to the memory. Here's some of my "coding"
 
 ![Image](images/joystick.png)
 
+Updated code
+
+```
+read_joy:
+        lda     #$7F
+        sta     VIA2_DDRB
+        lda     VIA2_PB
+        pha
+        lda     #$FF
+        sta     VIA2_DDRB
+        pla
+        and     #$80
+        beq     pos_right
+        lda     VIA1_PA2
+        and     #$04
+        beq     pos_up
+        lda     VIA1_PA2
+        and     #$08
+        beq     pos_down
+        lda     VIA1_PA2
+        and     #$10
+        beq     pos_left
+        rts
+
+pos_up:
+        sec
+        lda     $FB
+        sbc     #MAP_X_SIZE
+        sta     $FD
+        lda     $FC
+        sbc     #$00
+        sta     $FE
+        rts
+pos_right:
+        clc
+        lda     $FB
+        adc     #$01
+        sta     $FD
+        lda     $FC
+        adc     #$00
+        sta     $FE
+        rts
+pos_left:
+        sec
+        lda     $FB
+        sbc     #$01
+        sta     $FD
+        lda     $FC
+        sbc     #$00
+        sta     $FE
+        rts
+pos_down:
+        clc
+        lda     $FB
+        adc     #MAP_X_SIZE
+        sta     $FD
+        lda     $FC
+        adc     #$00
+        sta     $FE
+        rts
+```
+
 It seems that I ran out of ideas for the main character since the same
 guy is wobbling again in this game.
 
