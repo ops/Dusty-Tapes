@@ -72,7 +72,13 @@ I just didn't know that game with the same name already existed.
 
 ![Image](images/map_draft2.png)
 
+Here is map design draft with extended screen resolution.
+
 ![Image](images/map_draft3.png)
+
+The same map from the game
+
+![Image](bombjack/screenshot3.png)
 
 The game has so many loaders that I gave up the idea of converting it to disk
 image and it is now only provided as TAP images. Loading takes ages, sorry!
