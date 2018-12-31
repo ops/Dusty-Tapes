@@ -101,7 +101,9 @@ The game is written partly in BASIC and partly in machine language. Some of
 the ML routines are excuted as an IRQ routine.
 
 I didn't have ML monitor at that time so coding was first done with
-paper & pen and then POKEd to the memory. Here's some of my "coding"
+paper & pen and then POKEd to the memory. Here's some of my "coding".
+I did not feel comfortable with hexadecimals back then. Now using
+decimals in assembly code seems a bit weird.
 
 ![Image](images/joystick.png)
 
